@@ -1,0 +1,26 @@
+:host {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+width: 100%;
+background-color: #32435b;
+}
+section > header {
+color: #ffffff;
+padding: 10px;
+}
+section > header > h1 {
+font-size: 2em;
+}
+section > header .description {
+font-style: italic;
+}
+nav{
+    background-color: #bde0fe;
+}
+nav > a > img{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}

@@ -1,0 +1,14 @@
+<nav>
+      <a routerLink="./list" routerLinkActive="active">
+      <img src="assets/list.png" class="icon" />
+      </a><br/>
+      <a routerLink="./add" routerLinkActive="active">
+      <img src="assets/add.png" class="icon" />
+      </a><br/>
+      <a [routerLink]="['./edit', 1]" routerLinkActive="active">
+      <img src="assets/edit.png" class="icon" />
+      </a><br/>
+      </nav>
+      <section>
+      <router-outlet></router-outlet>
+      </section>
